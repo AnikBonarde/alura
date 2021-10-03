@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<body>
+    <script>
+        function pularLinha () {
+
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostrar(frase) {
+
+            document.write(frase);
+            pularLinha();
+        }
+
+        var Contadora = 30;
+
+        while(Contadora <= 40) {
+            if(Contadora == 37 || Contadora == 33) {
+                Contadora = Contadora + 1;
+            }
+            else {
+                mostrar(Contadora);
+                Contadora = Contadora + 1;
+            }
+        }
+        mostrar("FIM!!");
+    </script>    
+</body>
